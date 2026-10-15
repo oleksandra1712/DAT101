@@ -102,7 +102,7 @@ for ( let student = 1; student <= 5; student++) {
         grade = "F";
     }
 
-    printOut("Kandidaten fikk " + points + " poeng, som er " + percent.toFixed(2) + "% og gir karakteren " + grade);
+    printOut("Kandidat " + student + " fikk " + points + " poeng, som er " + percent.toFixed(2) + "% og gir karakteren " + grade);
 }
 
 printOut(newLine);
